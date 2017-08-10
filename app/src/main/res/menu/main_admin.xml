@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.MainActivity">
+
+    <item
+        android:id="@+id/action_save_log"
+        android:title="保存日志"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_xq"
+        android:title="205"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_7h"
+        android:title="206"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mm"
+        android:title="207"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cycleTest"
+        android:title="循环测试"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_direct"
+        android:title="直接连接"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_njLab"
+        android:title="乃军LAB"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.MainActivity">
+
+    <item
+        android:id="@+id/action_save_log"
+        android:title="保存日志"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_direct"
+        android:title="直接连接"
+        app:showAsAction="never" />
+
+
+</menu>

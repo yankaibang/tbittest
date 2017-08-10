@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="NAME"/>
+
+        <TextView
+            android:id="@+id/text_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C8:A2:B4:49:75"/>
+
+        <TextView
+            android:id="@+id/text_rssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-58"/>
+
+        <TextView
+            android:id="@+id/text_broadcast_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

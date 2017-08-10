@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tbit.bikebucket.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/edit_account"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:hint="帐号"/>
+
+
+    <EditText
+        android:id="@+id/edit_pwd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:hint="密码"/>
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit_pwd"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/text_app_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:text="软件版本: "
+        android:background="#ffffff"/>
+</RelativeLayout>
