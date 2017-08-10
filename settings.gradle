@@ -1,1 +1,1 @@
-include ':app', ':tbittestlib'
+include ':app', ':tbittestlib', ':lib2'
