@@ -14,17 +14,17 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.yankaibang.bike.TbitBle;
+import com.example.tbittestlib.bike.TbitBle;
 import com.example.yankaibang.app.DeviceAdapter;
-import com.example.yankaibang.bluetooth.BleClient;
-import com.example.yankaibang.bluetooth.IBleClient;
-import com.example.yankaibang.bluetooth.RequestDispatcher;
-import com.example.yankaibang.bluetooth.Scanner.ScannerCallbackAdapter;
-import com.example.yankaibang.bluetooth.Scanner.decorator.LogCallback;
-import com.example.yankaibang.bluetooth.Scanner.decorator.NoneRepeatCallback;
-import com.example.yankaibang.bluetooth.model.SearchResult;
-import com.example.yankaibang.bluetooth.request.BleResponse;
-import com.example.yankaibang.bluetooth.request.ConnectRequest;
+import com.example.tbittestlib.bluetooth.BleClient;
+import com.example.tbittestlib.bluetooth.IBleClient;
+import com.example.tbittestlib.bluetooth.RequestDispatcher;
+import com.example.tbittestlib.bluetooth.Scanner.ScannerCallbackAdapter;
+import com.example.tbittestlib.bluetooth.Scanner.decorator.LogCallback;
+import com.example.tbittestlib.bluetooth.Scanner.decorator.NoneRepeatCallback;
+import com.example.tbittestlib.bluetooth.model.SearchResult;
+import com.example.tbittestlib.bluetooth.request.BleResponse;
+import com.example.tbittestlib.bluetooth.request.ConnectRequest;
 import com.example.yankaibang.myapplication.R;
 
 import java.util.ArrayList;

@@ -3,7 +3,7 @@ package com.example.yankaibang.app.application;
 import android.app.Application;
 
 import com.example.yankaibang.app.SecretProtocolAdapter;
-import com.example.yankaibang.bike.TbitBle;
+import com.example.tbittestlib.bike.TbitBle;
 
 /**
  * Created by yankaibang on 2017/8/8.

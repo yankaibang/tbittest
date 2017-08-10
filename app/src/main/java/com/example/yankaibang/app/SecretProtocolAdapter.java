@@ -1,7 +1,7 @@
 package com.example.yankaibang.app;
 
 
-import com.example.yankaibang.protocol.ProtocolAdapter;
+import com.example.tbittestlib.protocol.ProtocolAdapter;
 
 /**
  * Created by Salmon on 2017/4/18 0018.

@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.yankaibang.bluetooth.model.SearchResult;
+import com.example.tbittestlib.bluetooth.model.SearchResult;
 import com.example.yankaibang.myapplication.R;
 
 import java.util.List;
