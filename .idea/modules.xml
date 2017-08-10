@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib2/lib2.iml" filepath="$PROJECT_DIR$/lib2/lib2.iml" />
       <module fileurl="file://$PROJECT_DIR$/tbittestlib/tbittestlib.iml" filepath="$PROJECT_DIR$/tbittestlib/tbittestlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tbittestlib2/tbittestlib2.iml" filepath="$PROJECT_DIR$/tbittestlib2/tbittestlib2.iml" />
     </modules>
   </component>
 </project>

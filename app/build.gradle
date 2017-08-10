@@ -33,5 +33,5 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.0'
     compile 'com.github.billy96322:EasyPermission:0.0.5'
     compile project(':tbittestlib')
-    compile project(':lib2')
+    compile project(':tbittestlib2')
 }
